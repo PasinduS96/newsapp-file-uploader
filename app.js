@@ -11,7 +11,7 @@ const app = express();
 
 mongoose.Promise = global.Promise;
 mongoose
-  .connect("mongodb://localhost/express-app-04", {
+  .connect("YOUR MONGODB URL", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
